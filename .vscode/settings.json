@@ -1,14 +1,16 @@
 {
   "[python]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.tabSize": 4,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": true,
+      "source.fixAll": true
     }
   },
-  "isort.args": ["--profile", "black"],
-  "python.linting.flake8Enabled": true,
-  "python.linting.pylintEnabled": false,
-  "python.linting.mypyEnabled": true,
-  "python.linting.enabled": true
+  "python.envFile": "${workspaceFolder}/.venv",
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.pylintEnabled": false
 }

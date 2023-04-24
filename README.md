@@ -14,6 +14,4 @@ sh setup.sh
 ## 導入してある開発支援ツール
 
 - black（フォーマッター）
-- mypy（型付け）
-- flake8（リンター）
-- isort（importを並べ替えてくれる）
+- ruff（リンター）

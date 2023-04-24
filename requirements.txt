@@ -1,5 +1,3 @@
 # Formatter & Linter
 black
-flake8
-mypy
-isort
+ruff
