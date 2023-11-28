@@ -2,6 +2,7 @@
   "recommendations": [
     "charliermarsh.ruff",
     "ms-python.mypy-type-checker",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "tamasfe.even-better-toml"
   ]
 }

@@ -4,10 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["kazuki <kazuki@jeis-ai.com>"]
 readme = "README.md"
-packages = [{include = "tempy"}]
+packages = [{ include = "tempy" }]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 
 [tool.poetry.group.notebook.dependencies]
 ipykernel = "^6.27.1"

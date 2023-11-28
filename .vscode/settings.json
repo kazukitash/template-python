@@ -12,6 +12,9 @@
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.tabSize": 4
   },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
   "python.envFile": "${workspaceFolder}/.venv",
   "python.terminal.activateEnvironment": true,
   "python.terminal.activateEnvInCurrentTerminal": true
