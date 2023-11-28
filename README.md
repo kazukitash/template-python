@@ -9,9 +9,9 @@ sh setup.sh
 
 ## 前提
 
-- pythonが入っていること
+- python3.10系が入っていること
 
 ## 導入してある開発支援ツール
 
-- black（フォーマッター）
-- ruff（リンター）
+- ruff
+  - flake8（リンター）,black（フォーマッター),isort（インポーター）の代わり
