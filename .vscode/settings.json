@@ -1,20 +1,18 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
+  "editor.formatOnType": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
+    "source.organizeImports": true,
+    "source.fixAll": true
   },
+  "notebook.formatOnSave.enabled": true,
   "[python]": {
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.tabSize": 4
   },
-  "python.formatting.provider": "black",
   "python.envFile": "${workspaceFolder}/.venv",
-  "python.linting.enabled": true,
-  "python.linting.mypyEnabled": false,
-  "python.linting.flake8Enabled": false,
-  "python.linting.pylintEnabled": false,
   "python.terminal.activateEnvironment": true,
   "python.terminal.activateEnvInCurrentTerminal": true
 }

@@ -1,7 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-python --version
-python -m venv .venv
-source ./.venv/bin/activate
+cd $(dirname $0)
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install poetry
+python -m poetry install --no-root
