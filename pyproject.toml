@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "tempy"
+name = "template-python"
 version = "0.1.0"
 description = ""
 authors = ["kazuki <kazuki@jeis-ai.com>"]
 readme = "README.md"
-packages = [{ include = "tempy" }]
+packages = [{ include = "template-python" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
